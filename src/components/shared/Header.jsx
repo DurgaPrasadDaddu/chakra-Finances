@@ -128,7 +128,7 @@ export default function Header() {
     { label: "About Us", href: "/about" },
     { label: "Services", href: "/services" },
     { label: "Clients", href: "/#clients" },
-    { label: "Blog", href: "/Blog" },
+    { label: "Blog", href: "/blog" },
   ];
 
   return (
