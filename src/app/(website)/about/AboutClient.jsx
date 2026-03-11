@@ -7,7 +7,7 @@ export default function About() {
   const [showKeyMore, setShowKeyMore] = useState(false);
 
   return (
-    <section id="about" className="pt-16 lg:pt-16">
+    <section id="about" className="pt-16 lg:pt-16 bg-white">
       {/* HEADER IMAGE */}
       <div className="relative w-full h-[220px] sm:h-[300px] md:h-[450px]">
         <Image
@@ -15,11 +15,11 @@ export default function About() {
           alt="Chakra Financial Services Loan Advisory"
           fill
           priority
-          className="object-cover, object-fill"
+          className="object-cover"
         />
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-16 bg-white">
         {/* ABOUT CONTENT */}
         <section className="w-full bg-white">
           <div className="max-w-7xl mx-auto pt-10 grid md:grid-cols-2 gap-10 lg:gap-12 items-center">

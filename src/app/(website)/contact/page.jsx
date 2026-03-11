@@ -250,6 +250,7 @@
 //     </section>
 //   );
 // }
+// import ContactUsSection from "@/components/HomePageSections/ContactUsSection";
 import ContactClient from "./ContactClient";
 
 export const metadata = {
@@ -269,5 +270,5 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-  return <ContactClient />;
+  return <ContactClient/>;
 }

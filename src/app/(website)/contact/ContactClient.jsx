@@ -131,8 +131,8 @@ export default function ContactClient() {
               className="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-400 outline-none"
             />
 
-            <textareag
-              placeholder="Enter Your Details"
+            <textarea
+              plceholder="Enter Your Details"
               rows={4}
               className="w-full p-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-orange-400 outline-none"
             />
