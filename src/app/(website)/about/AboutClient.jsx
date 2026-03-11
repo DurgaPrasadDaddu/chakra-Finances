@@ -15,7 +15,7 @@ export default function About() {
           alt="Chakra Financial Services Loan Advisory"
           fill
           priority
-          className="object-cover"
+          className="object-center"
         />
       </div>
 

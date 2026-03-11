@@ -75,13 +75,14 @@ export default function ServicesClient() {
     <>
       {/* ================= BANNER ================= */}
 
-      <section className="pt-20 relative">
+      <section className="pt-17 relative">
         <div className="relative w-full h-[350px] md:h-[400px]">
           <Image
-            src="/Images/services-banner.jpeg"
+            src="/Images/services-banner.png"
             alt="Financial Services"
             fill
             className="object-center"
+
             priority
           />
 

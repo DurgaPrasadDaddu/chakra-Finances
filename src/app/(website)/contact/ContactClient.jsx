@@ -27,7 +27,7 @@ export default function ContactClient() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-10">
             {/* Phone */}
 
-            <div className="flex items-center gap-3 bg-white/30 backdrop-blur-md p-5 rounded-xl border border-white/20">
+            <div className="flex items-center gap-3 bg-white/40 backdrop-blur-md p-5 rounded-xl border border-white/20">
               <div className="bg-orange-500 p-3 rounded-full">
                 <Phone className="text-white" size={20} />
               </div>
@@ -40,7 +40,7 @@ export default function ContactClient() {
 
             {/* Email */}
 
-            <div className="flex items-center gap-4 bg-white/30 backdrop-blur-md p-5 rounded-xl border border-white/20">
+            <div className="flex items-center gap-4 bg-white/40 backdrop-blur-md p-5 rounded-xl border border-white/20">
               <div className="bg-orange-500 p-3 rounded-full">
                 <Mail className="text-white" size={20} />
               </div>
@@ -59,7 +59,7 @@ export default function ContactClient() {
 
           {/* Address */}
 
-          <div className="flex items-start gap-4 bg-white/30 backdrop-blur-md p-5 rounded-xl border border-white/20 mt-6">
+          <div className="flex items-start gap-4 bg-white/40 backdrop-blur-md p-5 rounded-xl border border-white/20 mt-6">
             <div className="bg-orange-500 p-3 rounded-full">
               <MapPin className="text-white" size={20} />
             </div>
@@ -141,7 +141,7 @@ export default function ContactClient() {
               type="submit"
               className="w-full bg-gradient-to-r from-orange-500 to-orange-600 text-white py-3 md:py-4 rounded-lg font-semibold hover:scale-[1.02] transition shadow-lg"
             >
-              Submit Message
+              Submit
             </button>
           </form>
         </div>
